@@ -1,0 +1,18 @@
+# Tested with Python 3.10 on Windows AMD64.
+# PyTorch packages use the CUDA 12.8 wheel index used by the current system.
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+numpy==1.26.4
+opencv-python==4.11.0.86
+PyQt5==5.15.9
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.18.0
+torch==2.7.1+cu128
+torchvision==0.22.1+cu128
+ultralytics==8.3.0
+
+# Optional Windows-only Baumer camera support.
+# The bundled wheel is not available on PyPI and is only compatible with
+# Windows AMD64. Install it manually when a Baumer camera is connected:
+# python -m pip install .\baumer_neoapi-1.6.0-cp36.cp37.cp38.cp39.cp310.cp311.cp312.cp313-none-win_amd64.whl
+

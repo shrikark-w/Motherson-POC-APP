@@ -1,0 +1,2054 @@
+
+--- MOTHERSON App Startup at 2026-08-07 23:48:24 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+CRITICAL: Application startup failed:
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\main.py", line 73, in <module>
+    sys.exit(main())
+  File "E:\Shrikar\Motherson_app\main.py", line 65, in main
+    from ui import run_app
+  File "E:\Shrikar\Motherson_app\ui.py", line 238, in <module>
+    class MothersonUI(QMainWindow):
+  File "E:\Shrikar\Motherson_app\ui.py", line 777, in MothersonUI
+    def display_image(self, img: np.ndarray):
+NameError: name 'np' is not defined
+
+
+--- MOTHERSON App Startup at 2026-08-07 23:55:23 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+CRITICAL: Application startup failed:
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\main.py", line 73, in <module>
+    sys.exit(main())
+  File "E:\Shrikar\Motherson_app\main.py", line 65, in main
+    from ui import run_app
+  File "E:\Shrikar\Motherson_app\ui.py", line 238, in <module>
+    class MothersonUI(QMainWindow):
+  File "E:\Shrikar\Motherson_app\ui.py", line 777, in MothersonUI
+    def display_image(self, img: np.ndarray):
+NameError: name 'np' is not defined
+
+
+--- MOTHERSON App Startup at 2026-08-07 23:56:03 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[Main] Launching Motherson Quality Dashboard UI...
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+BaumerCameraThread: connect_camera exception: NotConnectedException: No device with '' found.
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\baumer_cam.py", line 38, in connect_camera
+    cam.Connect()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\neoapi\neoapi.py", line 25764, in Connect
+    return _neoapi.Cam_Connect(self, *args)
+neoapi.neoapi.NotConnectedException: NotConnectedException: No device with '' found.
+
+
+--- MOTHERSON App Startup at 2026-08-08 00:02:40 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[Main] Launching Motherson Quality Dashboard UI...
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+CRITICAL: Uncaught exception occurred:
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\ui.py", line 742, in <lambda>
+    lambda: self.camera_label.setText("Camera: Baumer Disconnected (Demo Mode)")
+KeyboardInterrupt
+
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\ui.py", line 742, in <lambda>
+    lambda: self.camera_label.setText("Camera: Baumer Disconnected (Demo Mode)")
+KeyboardInterrupt
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+CRITICAL: Uncaught exception occurred:
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\ui.py", line 742, in <lambda>
+    lambda: self.camera_label.setText("Camera: Baumer Disconnected (Demo Mode)")
+KeyboardInterrupt
+
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\ui.py", line 742, in <lambda>
+    lambda: self.camera_label.setText("Camera: Baumer Disconnected (Demo Mode)")
+KeyboardInterrupt
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+
+--- MOTHERSON App Startup at 2026-08-08 00:50:28 ---
+[Main] Initializing Motherson Vision Engine...
+CRITICAL: Uncaught exception occurred:
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\main.py", line 73, in <module>
+    sys.exit(main())
+  File "E:\Shrikar\Motherson_app\main.py", line 63, in main
+    detector = VisionEngine(config)
+  File "E:\Shrikar\Motherson_app\vision_engine.py", line 11, in __init__
+    self.engine = DetectionEngine(config)
+  File "E:\Shrikar\Motherson_app\detection.py", line 135, in __init__
+    self.reload_all_models()
+  File "E:\Shrikar\Motherson_app\detection.py", line 139, in reload_all_models
+    "scratch": SingleModelEngine("scratch", self.config.scratch_config),
+  File "E:\Shrikar\Motherson_app\detection.py", line 33, in __init__
+    self._load_model()
+  File "E:\Shrikar\Motherson_app\detection.py", line 54, in _load_model
+    ultralytics = importlib.import_module("ultralytics")
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\__init__.py", line 10, in <module>
+    from ultralytics.data.explorer.explorer import Explorer
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\__init__.py", line 3, in <module>
+    from .base import BaseDataset
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\base.py", line 15, in <module>
+    from torch.utils.data import Dataset
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\__init__.py", line 270, in <module>
+    _load_dll_libraries()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\__init__.py", line 246, in _load_dll_libraries
+    res = kernel32.LoadLibraryExW(dll, None, 0x00001100)
+KeyboardInterrupt
+
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\main.py", line 73, in <module>
+    sys.exit(main())
+  File "E:\Shrikar\Motherson_app\main.py", line 63, in main
+    detector = VisionEngine(config)
+  File "E:\Shrikar\Motherson_app\vision_engine.py", line 11, in __init__
+    self.engine = DetectionEngine(config)
+  File "E:\Shrikar\Motherson_app\detection.py", line 135, in __init__
+    self.reload_all_models()
+  File "E:\Shrikar\Motherson_app\detection.py", line 139, in reload_all_models
+    "scratch": SingleModelEngine("scratch", self.config.scratch_config),
+  File "E:\Shrikar\Motherson_app\detection.py", line 33, in __init__
+    self._load_model()
+  File "E:\Shrikar\Motherson_app\detection.py", line 54, in _load_model
+    ultralytics = importlib.import_module("ultralytics")
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\__init__.py", line 10, in <module>
+    from ultralytics.data.explorer.explorer import Explorer
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\__init__.py", line 3, in <module>
+    from .base import BaseDataset
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\ultralytics\data\base.py", line 15, in <module>
+    from torch.utils.data import Dataset
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\__init__.py", line 270, in <module>
+    _load_dll_libraries()
+  File "C:\Users\Developmrnt Team\AppData\Local\Programs\Python\Python310\lib\site-packages\torch\__init__.py", line 246, in _load_dll_libraries
+    res = kernel32.LoadLibraryExW(dll, None, 0x00001100)
+KeyboardInterrupt
+
+--- MOTHERSON App Startup at 2026-08-08 00:50:34 ---
+[Main] Initializing Motherson Vision Engine...
+WARNING ⚠️ Ultralytics settings reset to default values. This may be due to a possible problem with your settings or a recent ultralytics package update. 
+View Ultralytics Settings with 'yolo settings' or at 'C:\Users\Developmrnt Team\AppData\Roaming\Ultralytics\settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/quickstart/#ultralytics-settings.
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+
+--- MOTHERSON App Startup at 2026-08-08 00:51:45 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+
+--- MOTHERSON App Startup at 2026-08-08 08:15:37 ---
+CRITICAL: Uncaught exception occurred:
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\main.py", line 52, in <module>
+    from vision_engine import VisionEngine
+  File "E:\Shrikar\Motherson_app\vision_engine.py", line 3, in <module>
+    from detection import DetectionEngine
+  File "E:\Shrikar\Motherson_app\detection.py", line 7, in <module>
+    import cv2
+ModuleNotFoundError: No module named 'cv2'
+
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\main.py", line 52, in <module>
+    from vision_engine import VisionEngine
+  File "E:\Shrikar\Motherson_app\vision_engine.py", line 3, in <module>
+    from detection import DetectionEngine
+  File "E:\Shrikar\Motherson_app\detection.py", line 7, in <module>
+    import cv2
+ModuleNotFoundError: No module named 'cv2'
+
+--- MOTHERSON App Startup at 2026-08-08 08:16:18 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+BaumerCameraThread: No physical Baumer camera detected (Demo / Simulation Mode).
+
+--- MOTHERSON App Startup at 2026-08-08 09:57:14 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+BaumerCameraThread: Trigger config warning: FeatureAccessException: SetDouble with 1.15 not possible!
+feature access mode: RO
+feature interface: IFloat
+feature description: Controls the gamma correction of pixel intensity. This is typically used to compensate for non-linearity of the display system (such as CRT). AVAILABLE: (LUTContent != UserdefinedLUT). LOCKED: (LUTEnable = False).
+BaumerCameraThread: Camera connected
+BaumerCameraThread: Streaming started
+
+--- MOTHERSON App Startup at 2026-08-08 09:58:12 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+BaumerCameraThread: Trigger config warning: FeatureAccessException: SetDouble with 1.15 not possible!
+feature access mode: RO
+feature interface: IFloat
+feature description: Controls the gamma correction of pixel intensity. This is typically used to compensate for non-linearity of the display system (such as CRT). AVAILABLE: (LUTContent != UserdefinedLUT). LOCKED: (LUTEnable = False).
+BaumerCameraThread: Camera connected
+BaumerCameraThread: Streaming started
+
+--- MOTHERSON App Startup at 2026-08-08 09:59:19 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+BaumerCameraThread: Camera connected
+BaumerCameraThread: Streaming started
+
+--- MOTHERSON App Startup at 2026-08-08 10:00:02 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+BaumerCameraThread: Camera connected
+BaumerCameraThread: Streaming started
+BaumerCameraThread: Software trigger sent
+
+--- MOTHERSON App Startup at 2026-08-08 10:09:31 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+
+--- MOTHERSON App Startup at 2026-08-08 10:13:46 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 10:16:13 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 10:20:17 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 10:27:59 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 10:35:10 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 10:36:03 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 10:37:49 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 10:48:04 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 10:50:49 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 10:54:23 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+CRITICAL: Uncaught exception occurred:
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\ui.py", line 116, in paintEvent
+    def paintEvent(self, event):
+KeyboardInterrupt
+
+Traceback (most recent call last):
+  File "E:\Shrikar\Motherson_app\ui.py", line 116, in paintEvent
+    def paintEvent(self, event):
+KeyboardInterrupt
+
+--- MOTHERSON App Startup at 2026-08-08 11:00:27 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Exposure set to 17000.0
+[BaumerCam] Gain set to 7.0
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 11:08:29 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 11:09:32 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 11:12:02 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 11:14:53 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 11:16:53 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 11:20:36 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 11:37:57 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 12:12:46 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+
+--- MOTHERSON App Startup at 2026-08-08 12:13:07 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 14:40:11 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-08-08 14:46:37 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] NeoAPI Baumer Camera connected successfully!
+[BaumerCam] NeoAPI Streaming started
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+[BaumerCam] Software trigger executed via NeoAPI!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via NeoAPI!
+
+--- MOTHERSON App Startup at 2026-10-05 10:25:29 ---
+[Main] Initializing Motherson Vision Engine...
+[DetectionEngine] Loaded scratch model from E:\Shrikar\Motherson_app\model\motherson\scratch.pt
+[DetectionEngine] Loaded cap model from E:\Shrikar\Motherson_app\model\motherson\cap.pt
+[DetectionEngine] Loaded defect_2 model from E:\Shrikar\Motherson_app\model\motherson\defect_2.pt
+[DetectionEngine] Loaded part_presence model from E:\Shrikar\Motherson_app\model\motherson\presence.pt
+[DetectionEngine] Loaded barcode model from E:\Shrikar\Motherson_app\model\motherson\barcode.pt
+[Main] Launching Motherson Quality Dashboard UI...
+[BaumerCam] OpenCV Industrial Camera connected on Device 0!
+[BaumerCam] Software trigger executed via OpenCV!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[UI] Auto-transitioning from Front to Back Module after timeout...
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
+[BaumerCam] Software trigger executed via OpenCV!
